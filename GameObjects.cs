@@ -24,15 +24,7 @@ public abstract class GameObject
     {
 
     }
-    // public bool IsCollision(GameObject first, GameObject second)
-    // {
-    //     if (first.GetLeftEdge() <= second.GetRightEdge() && first.GetRightEdge() >= second.GetLeftEdge()
-    //     && first.GetBottomEdge() >= second.GetTopEdge() && first.GetTopEdge() <= second.GetBottomEdge())
-    //     {
-    //         return true;
-    //     }
-    //     else return false;
-    // }
+
 
     public virtual int GetLeftEdge()
     {
@@ -51,11 +43,4 @@ public abstract class GameObject
         return _y;
     }
 
-    // save .wav file in project and in game manager Raylib.InitAudioDevice() and close it at the end. Raylib.PlaySound(AssetManaager.GetSound("treasure"))
-    // Add sound into CollideWith() 
-    // Spawning and death of objects
-    // COllide based on not the centers, but the actual object. 
-    // Can you find the x coordinate of the left/rigth edge of an object?
-
-    // x and y in a rectangle draw it from the corner Raylib.DrawRectangle()
 }

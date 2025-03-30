@@ -4,13 +4,6 @@ using Raylib_cs;
 public class Player : GameObject
 {
     private Color _color;
-    // private int _pointValue;
-    // private int _lives;
-    // private int _speedX;
-    // private int _speedY;
-
-
-
     public Player(int x, int y) : base(x, y)
     {
         _color = Color.DarkBlue;
@@ -44,10 +37,7 @@ public class Player : GameObject
         }
     }
 
-    // public void HandleInput()
-    // {
 
-    // }
     public void keyLeft()
     {
         _speedX = -Math.Abs(_speedX);
@@ -71,14 +61,5 @@ public class Player : GameObject
             keyRight();
         }
     }
-
-    // CollideWith
-    // public override void CollideWith(GameObject first)
-    // {
-    //     if (first = Treasure)
-    //     {
-    //         _pointValue += Treasure._value;
-    //     }
-    // }
 
 }

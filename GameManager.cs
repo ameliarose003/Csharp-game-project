@@ -319,15 +319,4 @@ public class GameManager
         }
     }
 
-    // private void DrawElements()
-    // {
-    //     foreach (GameObject item in _gameObjects)
-    //     {
-    //         Console.WriteLine($"{item.GetType().Name} - Left: {item.GetLeftEdge()}, Right: {item.GetRightEdge()}, Top: {item.GetTopEdge()}, Bottom: {item.GetBottomEdge()}");
-    //         item.Draw();
-    //     }
-    // }
 }
-
-// TODO: Make something happen when the objects collide with the player. 
-// TODO: Make the objects appear continuously until the end of the game.

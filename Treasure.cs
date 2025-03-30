@@ -10,10 +10,7 @@ public class Treasure : GameObject
 
     public Treasure(int x, int y, GameManager gameManager) : base(x, y)
     {
-        // _x = random.Next(0, GameManager.SCREEN_WIDTH);
-        // _y = 0;
         _speedY = 5;
-        // init treasure value and speed
         _width = 15;
         _height = 15;
         _gameManager = gameManager;

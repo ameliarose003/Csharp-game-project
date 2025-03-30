@@ -4,9 +4,7 @@ using Raylib_cs;
 public class Bomb : GameObject
 {
     private Color _color;
-    // private int _randomNumber;
     private GameManager _gameManager;
-    // private int _lives;
 
 
 
